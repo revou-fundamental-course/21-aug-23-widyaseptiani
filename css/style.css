@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 16px 24px;
+  }
+
+  .header-wrapper > .menu {
+    display: flex;
+  }
+
+  .header-wrapper > .menu > button {
+    background-color: white;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: 0.3s background-color ease-out;
+  }
+
+  .header-wrapper > .menu > button:hover {
+    background-color: gainsboro;
+  }
+
+  .header-wrapper > .menu > button:first-child {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .header-wrapper > .menu > button:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+
+  .header-wrapper > .logo {
+    width: auto;
+    height: 40px;
+  }
+
+  .main-content {
+    padding: 24px;
+  }
+
+  .main-content .form-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+
+  .main-content .form-section form,
+  .main-content .form-section div {
+    width: 100%;
+  }
+
+  .img-slideshow {
+    width: 100%;
+  }
+
+  .kolom {
+    text-align: left;
+    width: 100%;
+}
+
+h1 {
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+.Our-Profile {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.kolom {
+    text-align: left;
+    width: 100%;
+}
+
+.profile {
+  color: blueviolet;
+  font-family: 'sans serif';
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'sans serif';
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #192e31;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'sans serif';
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #192e31;
+  width: 100%;
+  line-height: 50px;
+  background-color: rgb(247, 156, 239);
+  text-align: center;
+}
+
+h5 {
+  font-family: 'comic sans ms';
+}
+
+.Our-facilitation {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gambar-facilitation {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.gambar-facilitation img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.gambar-facilitation p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.fotoemail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+    display: grid;
+    max-width: 300px;
+	  padding: 5px 10px 10px 5px;
+	  font: 13px Arial, Helvetica, sans-serif;
+    background-color: rgb(168, 119, 248);
+    border: 5px solid;
+}
+
+.form-output {
+    display: grid;
+    max-width: 300px;
+	  padding: 5px 10px 10px 5px;
+	  font: 13px Arial, Helvetica, sans-serif;
+    border: 5px solid;
+    background-color: rgb(212, 188, 252);
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+
+  @media only screen and (max-width: 600px) {
+    .header-wrapper {
+      flex-direction: column;
+    }
+
+    .menu {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .logo {
+      margin-bottom: 14px;
+    }
+  }
